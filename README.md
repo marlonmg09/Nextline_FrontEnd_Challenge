@@ -60,7 +60,7 @@
 
 ### Endpoint a usarse:
 
-- Endpoint URL: ``
+- Endpoint URL: `https://53lsdx4cm6.execute-api.us-east-1.amazonaws.com/dev/task-type`
 - Return payload Example: 
 
 ```
