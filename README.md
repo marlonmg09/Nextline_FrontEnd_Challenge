@@ -1,13 +1,13 @@
 # Nextline_FrontEnd_Challenge
 
-- Repositorio que contiene las instrucciones del proyecto prueba para la vacante de Front-End de Nextline Mayo 2019.
-- Para participar en el challenge, favor de hacer `fork` de este repositorio e ir subiendo sus avances en tu propio `fork`, tu estrategia de `version control` no será evaluado.
+- Este repositorio contiene instrucciones del ejercicio práctico que complementa la evaluación a la entrevista presencial para la vacante de Front-End Nextline Mayo 2019.
+- Para participar deberás hacer `fork` a este repositorio y subir tus avances en tu propio `fork`. Tu estrategia de `versión control` no será evaluado.
 
-## Requisitos y descripción del Challenge.
+## Requisitos y descripción del ejercicio.
 
 ### Nota importante:
 
-- Este reto se va a evaluar con una serie de rubricas a las cuales se les van a asignar puntos a cada rubrica, al final se suman los puntos totales de acuerdo a los requisitos que se cumplieron y desiciones tomadas por el participante. 
+- La evaluación del ejercicio se llevará a partir de una serie de rúbricas, cada elemento a evaluar contará con una puntuación. Así, los puntos totales corresponderán de acuerdo a los requisitos que hayas cumplido y las tecnologías de tu elección.
 
 ### Frameworks/Librería Front-End que se permiten usar:
 
@@ -19,9 +19,6 @@
 | React             | +0     |
 | Vue               | +5     |
 | Nuxt              | +10    |
-
-
-
 
 ### Para crear las interfaces puedes usar lo siguiente:
 
@@ -35,9 +32,10 @@
 | Pure CSS          | +5     |
 | Vuetify           | +10    |
 
-### Descripción del challenge.
+### Descripción del ejercicio.
 
-- Este challenge consiste en crear un CRUD de Tasks o tareas sólo para el Front-End, por lo tanto no se va a pedir que se integre con una API, más que con la que se proporcione (1 GET).
+- Admnistrador de tareas (a manera de User-Story): Un usuario puede visualizar un desglose de todas las tareas que él mismo ha creado para, posteriormente, agregar una nueva o abrir (y ver detalles), editar (y modificar campos) y borrar una existente. 
+- El ejercicio consiste en crear un CRUD de tasks o tareas sólo para el Front-End, por lo que no necesariamente se solicitará integrar con ninguna API, salvo con una que se proporcionará a continuación (sólo 1 GET, de donde se obtendrán las tareas).
 
 - Las acciones/vistas que debería contener su app son las siguiente:
     - Listar todas las tareas creadas (un formato resumido de las tareas va aquí, sólo con nombre y descripción).
@@ -80,7 +78,7 @@
 ]
 ```
 
-### Rubricas principales del challenge.
+### Rúbricas principales del ejercicio.
 
 | Action/Part           | Points | Condition |
 |:---------------------:|:------:|:---------:|
