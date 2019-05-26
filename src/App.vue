@@ -18,10 +18,8 @@ export default {
   components: {
     appHeader: Header,
   },
-  data () {
-    return {
-      //
-    }
+  created() {
+    this.$store.dispatch('initTasks')
   }
 }
 </script>
