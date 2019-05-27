@@ -7,6 +7,9 @@ const state = {
 const mutations = {
    set_tasks: (state, tasks) => {
       state.tasks = tasks
+   },
+   add_task: (state, task) => {
+      state.tasks.push(task)
    }
 }
 

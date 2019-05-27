@@ -58,7 +58,7 @@ export default {
       } catch(err) {
         throw new Error(err)
       }
-      console.log(this.categorias)
+      // console.log(this.categorias)
       return this.categorias
     },
     /**
