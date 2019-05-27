@@ -56,7 +56,7 @@
         </v-card-text>
         <v-card-text>
           <p>Fecha inicial: {{ task_temp.start_date }}</p>
-          <p>Fecha final: {{ task_temp.finish_date }}</p>
+          <p>Fecha final: {{ task_temp.has_fdate ? task_temp.finish_date : '--/--/----' }}</p>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>

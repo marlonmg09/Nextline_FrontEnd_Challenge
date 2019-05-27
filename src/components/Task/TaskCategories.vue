@@ -6,7 +6,7 @@
     wrap
   >
     <v-flex xs12 class="text-xs-center my-2">
-      <h1 class="card__heading">Total Tasks: {{ tasks.length }}</h1>
+      <h1 class="card__heading">Tareas Totales: {{ tasks.length }}</h1>
     </v-flex>
     <v-flex v-for="categoria in categorias" :key="categoria.id" xs12 md4 class="my-2">
       <router-link :to="/task/ + categoria.name + '/?id=' + categoria.id" tag="p">
@@ -19,12 +19,12 @@
           height="380"
           style="cursor: pointer"
         >
-          <v-icon class="card__logo my-3">library_books</v-icon>
+          <v-icon class="card__logo my-3">{{ categoria.icon }}</v-icon>
           <div class="card__header">
             <h1 class="card__heading">{{ categoria.name }}</h1>
           </div>
           <div class="card__body">
-            <h4>Tasks</h4>
+            <h4>Tareas</h4>
             <p class="card__tasks">{{ filter_task(tasks, categoria.id).length }}</p>
           </div>
         </v-card>
@@ -41,9 +41,9 @@ export default {
   data() {
     return {
       categorias: [
-        { name: 'Personal', id: 123 },
-        { name: 'Bussines', id: 777 },
-        { name: 'Other', id: 999 }
+        { name: 'Personal', id: 123, icon: "face" },
+        { name: 'Bussines', id: 777, icon: "business_center" },
+        { name: 'Other', id: 999, icon: "beach_access" }
       ]
     };
   },
